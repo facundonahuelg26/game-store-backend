@@ -13,8 +13,8 @@ module.exports = getOrderAmount = async (products, shipping) => {
     additional_info: shipping.userData  || '0',
     items: [],
     back_urls: {
-      success: "http://localhost:5000/api/payment",
-      failure: "http://localhost:3000",
+      success: "https://game-store-application.herokuapp.com/api/payment",
+      failure: " https://facundonahuelg26.github.io/game-store-app/",
     },
     auto_return: "approved",
     binary_mode: true,
