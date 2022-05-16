@@ -14,8 +14,8 @@ const createRoles = require("./libs/InitialSetup")
 const setCache = require("./middlewares/cache")
 
 const app = express();
-const cors = require("cors");
-app.use(cors({ origin: "http://localhost:3000" }));
+//const cors = require("cors");
+//app.use(cors({ origin: "http://localhost:3000" }));
 createRoles();
 
 app.use(express.json());
