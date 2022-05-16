@@ -15,7 +15,7 @@ const setCache = require("./middlewares/cache")
 
 const app = express();
 const cors = require("cors");
-app.use(cors({ origin: "https://facundonahuelg26.github.io/game-store-app" }));
+app.use(cors({ origin: "https://facundonahuelg26.github.io" }));
 createRoles();
 
 app.use(express.json());
