@@ -14,7 +14,7 @@ module.exports = getOrderAmount = async (products, shipping) => {
     items: [],
     back_urls: {
       success: "https://game-store-application.herokuapp.com/api/payment",
-      failure: " https://facundonahuelg26.github.io/game-store-app/",
+      failure: "https://facundonahuelg26.github.io/game-store-app/",
     },
     auto_return: "approved",
     binary_mode: true,
