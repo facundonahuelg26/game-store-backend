@@ -78,7 +78,7 @@ const getPayment = async (req, res) => {
 
       await newOrder.save();
 
-      res.redirect(` https://facundonahuelg26.github.io/game-store-app/`);
+      res.redirect(`https://facundonahuelg26.github.io/game-store-app/`);
     } else {
       const newOrder = new Order({
         items: response.additional_info.items,
